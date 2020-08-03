@@ -27,7 +27,7 @@ function generateMarkdown(data) {
   ${data.install}
   
   ## Usage
-  Run the following command in the command line and answer the questions ${data.usage}
+  Use the following command in the command line and answer the questions ${data.usage}
 
   ## Contributions
   [GitHub: ${data.contributing}](https://github.com/${data.contributing})
@@ -36,7 +36,7 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  Licensed under the ${data.license} license
+  This project is licensed under the ${data.license} license.
 
   ## Questions
   You can email me at ${data.email} if you have any questions!
